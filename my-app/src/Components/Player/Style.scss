@@ -1,0 +1,123 @@
+.music {
+    flex: 1 1 auto;
+    width: 100%;
+}
+.music__image {
+    max-width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.music__item {
+    display: flex;
+    flex-direction: row;
+}
+.music__block {
+    background-color: rgb(16, 93, 80);
+    margin: 10px;
+    border-radius: 10px;
+}
+.music__block:hover {
+    background-color: rgb(19, 161, 137);
+    transition: 0.3s;
+}
+.music__name {
+    
+}
+.playFill {
+    width: 600px;
+}
+
+.player {
+    flex: 1 1 auto;
+    width: 100%;
+    .player__container {
+        position: fixed;
+        width: 84%;
+        bottom: 0px;
+        height: 80px;
+        background-color: green;
+        max-width: 100%;
+    }
+    .player__item {
+        max-width: 1400px;
+        width: 100%;    
+    }
+    .player__button {
+        cursor: pointer;
+    }
+    form {
+        display: flex;
+        justify-content: space-between;        
+        padding: 10px;
+    }
+    .player__form_1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .player__form_2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1486px) {
+    .player {
+        .player__item {
+            max-width: 1300px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1384px) {
+    .player {
+        .player__item {
+            max-width: 1000px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1222px) {
+    .player {
+        .player__item {
+            max-width: 800px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1045px) {
+    .player {
+        .player__item {
+            max-width: 750px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1001px) {
+    .player {
+        .player__item {
+            max-width: 100%;
+            width: 100%;
+        }
+        .player__container {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 389px) {
+    .player__form_1 { 
+        .player__input {
+            width: 80px;
+        }
+    }
+    .player__form_2 {
+        .player__input_2 {
+            width: 80px;
+        }
+    }
+}

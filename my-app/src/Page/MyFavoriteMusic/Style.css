@@ -1,0 +1,12 @@
+.music__p {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 260px;
+  font-size: 40px;
+}
+
+@media (max-width: 365px) {
+  .music__title__picture p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=Style.css.map */

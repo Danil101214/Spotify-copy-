@@ -1,0 +1,9 @@
+.AppRouter {
+  margin-left: 250px;
+}
+
+@media (max-width: 1000px) {
+  .AppRouter {
+    margin: 0px;
+  }
+}/*# sourceMappingURL=Style.css.map */

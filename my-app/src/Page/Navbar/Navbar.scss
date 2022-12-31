@@ -1,0 +1,134 @@
+.Navbar {
+    .sublist {
+        width: 43px;
+        position: absolute;
+        height: 43px;
+        border-radius: 20px;
+        background-color: white;
+        z-index: 21;
+        cursor: pointer;
+        margin-top: 6px;
+        margin-left: 6px;
+    }
+    .sublist__element {
+        margin: 0px auto;
+        width: 30px;
+        border-radius: 4px;
+        height: 3.5px;
+        background-color: black;
+    }
+    .sublist__element:not(:first-child) {
+        margin-top: 5px;
+    }
+.Navbar__container {
+    display: flex;
+    flex: 0 0 250px;
+    background-color: #000;
+    width: 100%;
+    max-width: 250px;
+    flex-direction: column;
+    position: fixed;
+    z-index: 20;
+    visibility: visible;
+    h1 {
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .Navbar__button {
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        width: 100%;
+        background-color: black;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .Navbar__button:hover {
+        background-color: rgb(71, 71, 71);
+    }
+    .Navbar__item {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 0px;
+        max-width: 500px;
+        overflow-y: scroll;
+        height: 100%;
+    }
+    .Navbar__item::-webkit-scrollbar {
+        width: 4px;
+    }
+    .Navbar__item::-webkit-scrollbar-track {
+        background-color: black;
+    }
+    li {
+        background-color: black;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    li:hover {
+        background-color: rgb(71, 71, 71);
+    }
+    ul {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .Navbar__ul {
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: auto;
+        width: 100%;
+        background-color: black;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 0px;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 20px;
+        }
+    }
+}
+
+@media(max-width: 4000px) {
+    .sublist {
+        display: none;
+    }
+}
+@media(max-width: 1000px) {
+    .sublist {
+        display: block;
+    }
+    .Navbar__container.block {
+        transform: translateX(-100%);
+    }
+    .Navbar__container {
+        transform: translateX(0);
+        transition: 0.5s ease-in;
+    }
+}
+
+@media(max-height: 700px) {
+    .Navbar__container {
+        height: 100%;
+        overflow-y: scroll;
+    }
+}

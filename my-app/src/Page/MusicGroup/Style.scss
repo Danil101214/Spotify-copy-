@@ -1,0 +1,53 @@
+.music__group {
+    width: 100%;
+    flex: 1 1 auto;
+}
+.music-group__item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.music-group__card {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #000;
+    padding: 20px;
+    position: relative;
+    h3 {
+        margin: 2px;
+        color: #FFFFFF;
+    }
+    p {
+        margin: 2px;
+        color: #FFFFFF;
+    }
+}
+
+.music-group__card:hover {
+    .play {
+        transition: 1s;
+        height: 40px;
+        background-color: rgb(8, 192, 8);
+        width: 40px;
+        border-radius: 20px;
+        position: absolute;
+        left: 175px;
+        bottom: 80px;
+        cursor: pointer;
+    }
+    
+    .triangle {
+        border-color: transparent transparent black transparent;
+        border-style: solid;
+        border-width: 0px 14px 14px 14px;
+        height: 0px;
+        width: 0px;
+        rotate: 90deg;
+        position: absolute;
+        top: 11px;
+        left: 8px;
+    }
+}
+img {
+    border-radius: 15px;
+}

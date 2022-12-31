@@ -1,0 +1,84 @@
+.createMusicSort {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 15;
+}
+.createMusicSort .createMusicSort__container {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 10px;
+}
+.createMusicSort .close {
+  z-index: 23;
+  margin-top: 10px;
+}
+.createMusicSort .createMusicSort__item h1 {
+  text-align: center;
+}
+.createMusicSort .createMusicSort__bigBlock {
+  display: flex;
+  flex-direction: column;
+}
+.createMusicSort .createMusicSort__bigBlock input {
+  max-width: 500px;
+  display: flex;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 6px;
+}
+.createMusicSort .createMusicSort__bigBlock label {
+  font-size: 26px;
+}
+.createMusicSort .createMusicSort__bigBlock_2 {
+  display: flex;
+  flex-direction: column;
+}
+.createMusicSort .createMusicSort__bigBlock_2 label {
+  font-size: 26px;
+}
+.createMusicSort input#createMusicSort__file {
+  display: none;
+}
+.createMusicSort input#createMusicSort__file + label {
+  width: 200px;
+  padding: 4px;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 9px;
+  text-align: center;
+  border: 2px solid orange;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.createMusicSort input#createMusicSort__file + label:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.5s;
+}
+.createMusicSort .createMusicSort__button {
+  width: 250px;
+  padding: 9px;
+  background-color: white;
+  margin-top: 20px;
+  border: 2px solid green;
+  border-radius: 9px;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.createMusicSort .createMusicSort__button:hover {
+  background-color: green;
+  color: white;
+  transition: 0.5s;
+}/*# sourceMappingURL=Style.css.map */

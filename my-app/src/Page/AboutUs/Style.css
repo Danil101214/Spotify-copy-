@@ -1,0 +1,37 @@
+.AboutUs__container {
+  padding: 10px;
+}
+.AboutUs__container .AboutUs__block_1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.AboutUs__container .AboutUs__block_1 img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+}
+.AboutUs__container .AboutUs__block_1 p {
+  max-width: 600px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+.AboutUs__container .AboutUs__block_2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.AboutUs__container .AboutUs__block_2 img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  margin-top: 40px;
+}
+.AboutUs__container .AboutUs__block_2 p {
+  max-width: 600px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}/*# sourceMappingURL=Style.css.map */

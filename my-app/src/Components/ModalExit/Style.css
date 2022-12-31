@@ -1,0 +1,79 @@
+.modalExit {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 110;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+
+.modalExit__container {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgb(26, 26, 26);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.modalExit__item {
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+}
+
+.modalExit__item p {
+  color: #FFFFFF;
+}
+
+.modalExit__item h1 {
+  text-align: center;
+}
+
+.modalExit__item_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.modalExit__item_button button {
+  margin: 6px;
+}
+
+.modalExit__item_button_1 {
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modalExit__item_button_1:hover {
+  transition: 0.5s;
+  background-color: red;
+  color: #FFFFFF;
+}
+
+.modalExit__item_button_2 {
+  border-radius: 5px;
+  border: 1px solid rgb(0, 110, 255);
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modalExit__item_button_2:hover {
+  transition: 0.5s;
+  background-color: rgb(0, 110, 255);
+  color: #FFFFFF;
+}/*# sourceMappingURL=Style.css.map */

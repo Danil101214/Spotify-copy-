@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/uuid": "^9.0.0",
+    "framer-motion": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3"
+  }
+}

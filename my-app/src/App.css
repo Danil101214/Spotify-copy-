@@ -1,0 +1,30 @@
+li {
+  list-style: none;
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  max-width: 100%;
+}
+body::-webkit-scrollbar {
+  width: 7px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(164, 164, 164);
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 8px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: green;
+}
